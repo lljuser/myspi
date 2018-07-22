@@ -3,6 +3,9 @@ package com.cnabs.myspi;
 import java.util.Iterator;
 import java.util.ServiceLoader;
 
+/*
+* 测试ServiceLoader发现SPI接口 动态查找IMyDriver实现
+* */
 public class MainTest {
     public static void main(String[] args){
         IMyDriver myDriver1=new MyAppDriver();
